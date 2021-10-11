@@ -1,1 +1,23 @@
-// TODO
+.content {
+  max-width: 700px;
+  padding: 0 0.875rem;
+  margin: 0 auto 4rem;
+}
+
+.post {
+  width: 100%;
+
+  & + .post {
+    margin-top: 3rem;
+  }
+}
+
+.loadPosts {
+  background: none;
+  border: none;
+  color: var(--pink);
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin: 4rem auto 5rem;
+  cursor: pointer;
+}
